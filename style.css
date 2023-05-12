@@ -1,0 +1,54 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    width: 100%;
+}
+
+.bodywrap {
+    width: 92%;
+    margin: 20px auto;
+    padding: 2px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+
+.bodywrap .nav {
+    background-color: navy;
+    margin: 2px;
+    height: 115px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 20px auto;
+    margin: 5px;
+
+}
+
+.main {
+    background-image: url(support.webp);
+}
+
+.content h4 {
+    color: white;
+    text-align: center;
+}
+
+.content pre {
+    color: white;
+    text-align: center;
+}
+
+.nameform {
+    display: flex;
+    justify-content: center;
+
+}
